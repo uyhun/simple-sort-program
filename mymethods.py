@@ -32,3 +32,5 @@ def get_valid_input(prompt, type_=None, min_=None, max_=None, range_=None, re_=N
 		#checks that user_input is of the right format by comparing to a regular expression
 		elif re_ is not None:
 			pass
+		else:
+			return user_input
