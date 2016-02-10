@@ -17,7 +17,7 @@ def get_valid_input(prompt, type_=None, min_=None, max_=None, range_=None, re_=N
 			print("Input must be greater or equal to {0}.".format(min_))
 		#checks that user_input is <= max.
 		elif max_ is not None and user_input > max_:
-			print("Input must be less than or equal to {0}.".format(max_)
+			print("Input must be less than or equal to {0}.".format(max_))
 		#checks that user_input is valid option from a list.
 		elif range_ is not None and user_input not in range_:
 			if isinstance(range_, range):
