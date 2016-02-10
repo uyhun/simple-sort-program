@@ -2,7 +2,7 @@
 
 #get_valid_input prompts the terminal user for an input until a valid input is entered.
 def get_valid_input(prompt, type_=None, min_=None, max_=None, range_=None, re_=None):
-	if min_ is not None and max_ is not None and min > max:
+	if min_ is not None and max_ is not None and min_ > max_:
 		raise ValueError("min_ must be less than or equal to max_.")
 	while True:
 		user_input = input(prompt) # prompts the user for input.
