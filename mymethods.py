@@ -13,8 +13,9 @@ def get_valid_input(prompt, type_=None, min_=None, max_=None, range_=None, re_=N
 			except ValueError:
 				print("Input must be of type {0}.".format(type_.__name__))
 				continue
+		
 		#checks that the user_input is >=min
-		elif min_ is not None and user_input < min_:
+		if min_ is not None and user_input < min_:
 			print("Input must be greater or equal to {0}.".format(min_))
 		#checks that user_input is <= max.
 		elif max_ is not None and user_input > max_:
