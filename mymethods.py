@@ -36,3 +36,24 @@ def get_valid_input(prompt, type_=None, min_=None, max_=None, range_=None, re_=N
 			pass
 		else:
 			return user_input
+
+
+
+#stub for insertion sort implementaion
+def insertion_sort(lst, cmp=None):
+	pass
+
+#stub for selection_sort implementation
+def selection_sort(lst, cmp=None):
+	pass
+#stub for quick sort implementation.
+def quick_sort(lst, cmp=None):
+	pass
+
+#stub for merge_sort implementation
+def merge_sort(lst, cmp=None):
+	pass
+
+#stub for bubble_sort implemenation
+def bubble_sort(lst, cmp=None):
+	pass
